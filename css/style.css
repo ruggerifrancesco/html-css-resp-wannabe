@@ -129,20 +129,16 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 /* Bonus */
-@media screen and (min-width: 768px) and (max-width: 1160px) {
+@media screen and (max-width: 1140px) {
     .container {
-        width: auto;
-        margin: 0 auto;
-        padding: 0 20px;
+        width: 100%;
     }
 }
 
 /* Solution */
 @media screen and (max-width: 768px) {
     .container {
-        width: 768px;
-        margin: 0 auto;
-        padding: 0 20px;
+        width: 100%;
     }
 }
 
@@ -152,8 +148,6 @@ img {
     }
     .container {
         width: 480px;
-        margin: 0 auto;
-        padding: 0 20px;
     }
     .steps {
         margin: 0;
