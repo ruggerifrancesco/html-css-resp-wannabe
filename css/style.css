@@ -152,6 +152,15 @@ img {
         flex-direction: column;
         gap: 4rem;
     }
+        .lessons {
+            padding: 3rem 0;
+            background: #232946;  
+        }
+        .why-us {
+            background: #222222;
+            margin-bottom: 0;
+            padding: 3rem 0;
+        }
     .lessons .col,
     .steps .col,
     .why-us .col-right {
@@ -159,10 +168,5 @@ img {
     }
     .why-us .col-left{
         width: 90%;
-    }
-    .why-us {
-        background: #222222;
-        margin-bottom: 0;
-        padding: 3rem 0;
     }
 }
