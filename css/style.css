@@ -7,6 +7,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    outline: 1px solid red;
 }
 
 body {
@@ -127,9 +128,19 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+/* Bonus */
+@media screen and (min-width: 768px) and (max-width: 1160px) {
+    .container {
+        width: auto;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+}
+
+/* Solution */
 @media screen and (max-width: 768px) {
     .container {
-        width: 780px;
+        width: 768px;
         margin: 0 auto;
         padding: 0 20px;
     }
