@@ -155,7 +155,7 @@ img {
     .lessons .col,
     .steps .col,
     .why-us .col-right {
-        width: auto;
+        width: 75%;
     }
     .why-us .col-left{
         width: 90%;
